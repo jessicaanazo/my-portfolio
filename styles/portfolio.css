@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6{
 h1 {
     font-size: 55px; 
     line-height: 1.2;
-    color: var(--branding-color);
 }
 h2 {
     font-size: 64px;
@@ -62,6 +61,35 @@ p {
 .project-description {
     padding: 120px 60px;
 }
+.name-color {
+     color: var(--branding-color);
+}
+
+.content-container {
+     padding: 160px 20px;
+}
+.content h1 {
+    font-size: 55px;
+    line-height: 75px;
+}
+.content h2 {
+    font-size: 18px;
+   font-family: var(--default-font-family);
+    color: #3f3e3e;
+}
+.content h3 {
+    /* margin: 20px 0 0; */
+    font-size: 25px;
+    line-height: 1;
+    font-family: var(--default-font-family);
+}
+.content p{
+    font-size: 17px;
+}
+.content {
+    margin: 30px;
+}
+
 @media (max-width: 960px) {
    .hero {
     padding: 80px 20px;
@@ -72,7 +100,12 @@ p {
     h2 {
         font-size: 44px;
 
-    } .project-description {
+    } 
+    .content-container {
+        text-align: center;
+        padding: 0;
+    }
+    .project-description {
         padding: 0;
         text-align: center;
     }
